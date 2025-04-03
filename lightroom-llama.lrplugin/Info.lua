@@ -4,15 +4,15 @@ return {
         minor = 0,
         revision = 0
     },
-    LrPluginName = "Lightroom Llama",
-    LrPluginDescription = "Description of your Lightroom plugin",
-    LrToolkitIdentifier = "com.thejoltjoker.lightroom.llama",
-    LrPluginInfoUrl = "https://github.com/thejoltjoker/lightroom-llama",
-    LrPluginInfoUrlProvider = "http://www.thejoltjoker.com",
+    LrPluginName = "Lightroom Ollama Tagger",
+    LrPluginDescription = "Plugin using Ollama model for tagging photos in Lightroom. Initialise by running in Ollama: ollama run minicpm-v",
+    LrToolkitIdentifier = "com.awojtas.lightroom.ollama",
+    LrPluginInfoUrl = "https://github.com/awojtas/lightroom-ollama",
+    LrPluginInfoUrlProvider = "",
     LrSdkVersion = 10.0,
     LrSdkMinimumVersion = 5.0,
     LrLibraryMenuItems = {{
-        title = "Lightroom Llama...",
+        title = "Lightroom Ollama Tagger...",
         file = "LrLlama.lua"
     }}
 }
